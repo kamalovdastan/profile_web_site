@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+	font-family: 'Raleway', scans-serif;
+	font-weight: 900;
+	
+	
+	background: url("../images/circles-dark.png");
+
+}
+.our-content{
+	font-family: 'Raleway', scans-serif;
+	max-width: 600px;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	line-height: 2.0em; 
+}
+
+button:hover {
+	background: #0275d8;
+	color: white;
+}
+
+button {
+	background: #e68a1a
+}	
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.active{
+	background-color: orange 
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+img{
+	float:left;
+	margin-right: 10px;
+	margin-bottom: 10px; 
+	
+}
+
+#img_block{
+	margin-top: 30px;
+}
